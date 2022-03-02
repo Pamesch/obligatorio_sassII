@@ -1,0 +1,11 @@
+header nav div {
+  background-color: #878d8b;
+}
+
+header nav div ul li {
+  text-decoration: underline;
+}
+
+header nav div ul li a {
+  text-decoration-color: azure;
+}

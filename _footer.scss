@@ -1,0 +1,39 @@
+$redes:(
+    instagram: rgb(240, 199, 124),
+    facebook: rgb(157, 157, 228),
+    whatsapp: rgb(193, 236, 193),
+);
+
+@each $red, $color in $redes {
+    .#{$red}{
+        background-color: $color;
+    }
+    
+}
+footer {
+    
+    
+    ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(242, 226, 220);
+    border-radius: 15px;
+    height: 4em;
+    align-items: center;
+        li{
+        list-style: none;
+       
+            button{
+            border-radius: 5%;
+            font-family: bellerose light;
+            font-size: 1em;
+            padding: 8px 10px 8px 10px;
+            text-align: center;
+            position: center;
+            text-decoration: none;
+
+            }
+        }
+    }
+}
